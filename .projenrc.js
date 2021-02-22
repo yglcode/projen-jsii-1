@@ -4,19 +4,19 @@ const project = new JsiiProject({
   author: 'Yigong Liu',
   authorAddress: 'ygl.code@gmail.com',
   defaultReleaseBranch: 'main',
-  jsiiFqn: "projen.JsiiProject",
+  jsiiFqn: 'projen.JsiiProject',
   name: 'projen-jsii-1',
   repositoryUrl: 'https://github.com/yglcode/projen-jsii-1.git',
 
   python: {
-    module: "yglcode_jsii_hello",
-    distName: "yglcode-jsii-hello",
+    module: 'yglcode_jsii_hello',
+    distName: 'yglcode-jsii-hello',
   },
 
   publishToMaven: {
-    javaPackage: "yglcode.jsii.hello",
-    mavenGroupId: "yglcode.jsii",
-    mavenArtifactId: "jsii-hello",
+    javaPackage: 'yglcode.jsii.hello',
+    mavenGroupId: 'yglcode.jsii',
+    mavenArtifactId: 'jsii-hello',
   },
 
   /* JsiiProjectOptions */
